@@ -1,5 +1,4 @@
 package SortingAndSearching;
-import java.io.*;
 import java.util.*;
 // You have to find the k-th smallest element in the given array using the quick-select algorithm.
 public class PivotSelect {
@@ -57,7 +56,9 @@ public class PivotSelect {
 	    for (int i = 0; i < n; i++) {
 	      arr[i] = scn.nextInt();
 	    }
-	    int k = scn.nextInt();
+		int k = scn.nextInt();
+        scn.close();
+		
 	    System.out.println(quickSelect(arr,0,arr.length - 1,k - 1));
 	  }
 

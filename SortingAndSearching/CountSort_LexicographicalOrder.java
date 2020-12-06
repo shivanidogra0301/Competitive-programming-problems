@@ -42,10 +42,11 @@ public class CountSort_LexicographicalOrder {
 		  }
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		Scanner scn = new Scanner(System.in);
-	    int n = scn.nextInt();
+		int n = scn.nextInt();
+        scn.close();
+		
 	    char[] arr = new char[n];
 	    int[] ascii = new int[n];
 	    int max = Integer.MIN_VALUE;

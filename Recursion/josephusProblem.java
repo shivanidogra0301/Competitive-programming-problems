@@ -13,10 +13,11 @@ import java.util.Scanner;
 public class josephusProblem {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
 	    int n = scn.nextInt();
-	    int k = scn.nextInt();
+		int k = scn.nextInt();
+        scn.close();
+		
 	    System.out.println(solution(n,k));
 	}
 	

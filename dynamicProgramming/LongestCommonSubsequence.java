@@ -8,6 +8,7 @@ public static void main(String[] args) throws Exception {
         Scanner s = new Scanner(System.in);
         String s1 = s.next();
         String s2 = s.next();
+        s.close();
         
         int[][] dp = new int[s1.length()+1][s2.length()+1];
         

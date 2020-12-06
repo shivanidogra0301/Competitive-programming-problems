@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class NQueens {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner s=new Scanner(System.in);
 		int n=s.nextInt();
+        s.close();
+
 		int[][] chess=new int[n][n];
 		PrintQueenPos(chess,"",0);
 	}

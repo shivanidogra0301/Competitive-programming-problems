@@ -4,7 +4,9 @@ public class NQueensBranchMethod {
 	
 	public static void main(String[] args) throws Exception {
 	    Scanner scn = new Scanner(System.in);
-	    int n = scn.nextInt();
+		int n = scn.nextInt();
+        scn.close();
+		
 	    boolean[][] board = new boolean[n][n];
 	    //write your code here
 	    boolean[] cols = new boolean[n];

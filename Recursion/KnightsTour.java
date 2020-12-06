@@ -3,7 +3,6 @@ package Recursion;
 public class KnightsTour {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[][] chess=new int[5][5];
 		printKnightsTour(chess,1,1,1);
 	}

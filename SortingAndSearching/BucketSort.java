@@ -1,7 +1,6 @@
 package SortingAndSearching;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Scanner;
 
@@ -15,6 +14,8 @@ public class BucketSort {
 		for(int i = 0; i < arr.length; i++) {
 			arr[i] = s.nextFloat();
 		}
+        s.close();
+
 		ArrayList<Float>[] bucket = new ArrayList[n];
 		for(int i = 0; i < bucket.length; i++) {
 			bucket[i] = new ArrayList<>();

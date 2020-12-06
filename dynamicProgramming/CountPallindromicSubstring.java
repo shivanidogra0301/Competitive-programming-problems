@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class CountPallindromicSubstring {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner s = new Scanner(System.in);
         String str = s.nextLine();
         boolean[][] dp = new boolean[str.length()][str.length()];
+        s.close();
+
         int count = 0;
         for(int g = 0; g < str.length(); g++){
             for(int i = 0, j = g; j < dp.length; j++,i++){

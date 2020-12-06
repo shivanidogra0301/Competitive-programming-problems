@@ -1,5 +1,4 @@
 package dynamicProgramming;
-import java.io.*;
 import java.util.*;
 /*  
  * 1. You are given a number n, representing the number of bridges on a river.
@@ -37,7 +36,9 @@ public class OverLappingBridges {
 	            int n = scn.nextInt();
 	            int s = scn.nextInt();
 	            bdgs[i] = new bridge(n,s);
-	        }
+			}
+			scn.close();
+			
 	        Arrays.sort(bdgs);
 	        int[] dp = new int[m];
 	        dp[0] = 1;

@@ -1,5 +1,4 @@
 package SortingAndSearching;
-import java.io.*;
 import java.util.*;
 public class QuickSort {
 
@@ -52,7 +51,9 @@ public class QuickSort {
 	    int[] arr = new int[n];
 	    for (int i = 0; i < n; i++) {
 	      arr[i] = scn.nextInt();
-	    }
+		}
+        scn.close();
+		
 	    long starttime = System.currentTimeMillis();
 	    
 	    quickSort(arr, 0, arr.length - 1);

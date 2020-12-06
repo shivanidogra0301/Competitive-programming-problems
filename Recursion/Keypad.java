@@ -7,6 +7,8 @@ public class Keypad {
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
 		String str=s.next();
+        s.close();
+
 //		ArrayList<String> ans=getkp(str);
 //		System.out.println(ans);
 		printkeypad(str,"");

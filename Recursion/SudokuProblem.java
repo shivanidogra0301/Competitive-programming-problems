@@ -85,7 +85,9 @@ public class SudokuProblem {
 	  }
 
 	  public static void main(String[] args) throws Exception {
-	    Scanner scn = new Scanner(System.in);
+		Scanner scn = new Scanner(System.in);
+        scn.close();
+		
 	    int[][] arr = new int[9][9];
 	    for (int i = 0; i < 9; i++) {
 	      for (int j = 0; j < 9; j++) {

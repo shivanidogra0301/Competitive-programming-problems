@@ -6,7 +6,6 @@ package SearchingAlgo;
 public class HIndex {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		// always use sorted array of decscending order
 		int[] arr = {5,4,3,1,1};
 		// as it is sorted we can use binary search.

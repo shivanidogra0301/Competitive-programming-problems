@@ -10,11 +10,12 @@ import java.util.Scanner;
 public class TilingQuestion {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		Scanner s = new Scanner(System.in);
         int n = s.nextInt();
         int m = s.nextInt();
+        s.close();
+
         // when floor is 2 * n ans tile is 2 * 1
         tiling1(n);
         //when floor is n * m and tiles is m* 1

@@ -1,6 +1,5 @@
 package SortingAndSearching;
 import java.util.Scanner;
-import java.util.*;
 public class MergeSort {
 	  public static int[] mergeSort(int[] arr, int lo, int hi) {
 	      if(lo == hi){
@@ -64,7 +63,9 @@ public class MergeSort {
 	    int[] arr = new int[n];
 	    for (int i = 0; i < n; i++) {
 	      arr[i] = scn.nextInt();
-	    }
+		}
+        scn.close();
+		
 	     long starttime = System.currentTimeMillis();
 	    int[] sa = mergeSort(arr,0,arr.length - 1);
 	    long endtime = System.currentTimeMillis();

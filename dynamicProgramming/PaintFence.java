@@ -3,7 +3,6 @@ package dynamicProgramming;
 public class PaintFence {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int n=8,k=3;
 		int same=k,diff=k*(k-1);
 		int total=same+diff;

@@ -6,7 +6,6 @@ import java.util.Map;
 public class FruitesIntoBasket {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Map<Integer,Integer> map=new HashMap<>();
 		map.put(20, 1);
 		map.put(20, 2);

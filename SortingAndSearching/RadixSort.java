@@ -1,6 +1,4 @@
 package SortingAndSearching;
-import java.io.*;
-import java.util.*;
 import java.util.*;
 public class RadixSort {
 	public static void radixSort(int[] arr) {
@@ -59,11 +57,12 @@ public class RadixSort {
 	    for (int i = 0; i < n; i++) {
 	      arr[i] = scn.nextInt();
 	    }
-	    long starttime = System.currentTimeMillis();
+        scn.close();
+	    
 	    radixSort(arr);
 	    print(arr);
 	  }
-	  long endtime = System.currentTimeMillis();
+	  
 
 //	  System.out.print("Time "+ (endtime-starttime)+"ms");
 

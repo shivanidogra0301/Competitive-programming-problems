@@ -3,7 +3,6 @@ package SearchingAlgo;
 public class BinarySearch {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] arr = {10,23,45,78,90}; //sorted array
 		int lo = 0, hi = arr.length-1;
 		int data = 78;

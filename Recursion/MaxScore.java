@@ -25,7 +25,6 @@ frequency so dog and good cannot form subset) and we also want the score to be m
 public class MaxScore {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
 		int nofWords = scn.nextInt();
 		String[] words = new String[nofWords];
@@ -41,6 +40,8 @@ public class MaxScore {
 		for (int i = 0; i < score.length; i++) {
 			score[i] = scn.nextInt();
 		}
+        scn.close();
+
 		if (words == null || words.length == 0 || letters == null || letters.length == 0 || score == null
 				|| score.length == 0) {
 			System.out.println(0);

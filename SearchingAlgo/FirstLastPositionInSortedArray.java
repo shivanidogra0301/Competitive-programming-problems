@@ -45,7 +45,6 @@ public class FirstLastPositionInSortedArray {
 	
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] arr = {5,7,7,8,8,10};
 		int target = 8;
 		int[] ans = searchRange(arr,target);

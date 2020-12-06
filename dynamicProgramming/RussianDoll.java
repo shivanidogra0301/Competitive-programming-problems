@@ -1,5 +1,4 @@
 package dynamicProgramming;
-import java.io.*;
 import java.util.*;
 public class RussianDoll {
 	/*
@@ -37,7 +36,9 @@ only diff betwwen this ques and overlappig brdges is that here we do not conside
 	            int w = scn.nextInt();
 	            int h = scn.nextInt();
 	            envlps[i] = new envlp(w,h);
-	        }
+			}
+			scn.close();
+			
 	        Arrays.sort(envlps);
 	        int[] dp = new int[m];
 	        dp[0] = 1;

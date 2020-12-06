@@ -11,9 +11,10 @@ import java.util.Stack;
 public class DuplicateBrackets {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		 Scanner s = new Scanner(System.in);
-	        String str = s.nextLine();
+			String str = s.nextLine();
+			s.close();
+			
 	        Stack<Character> stack = new Stack<Character>();
 	        
 	        for(int i = 0; i < str.length(); i++){

@@ -11,6 +11,7 @@ public class MatrixChainMultiplication {
 	        for(int i = 0; i < arr.length ; i++){
 	            arr[i] = scn.nextInt();
 	        }
+			scn.close();
 
 	        mcm(arr);
 	     }

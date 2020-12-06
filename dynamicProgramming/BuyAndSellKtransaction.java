@@ -20,6 +20,8 @@ public class BuyAndSellKtransaction {
         }
         
         int k = s.nextInt();
+        s.close();
+
         int[][] dp = new int[k+1][n];
         for( int t = 1; t < dp.length; t++){
             int max = Integer.MIN_VALUE;

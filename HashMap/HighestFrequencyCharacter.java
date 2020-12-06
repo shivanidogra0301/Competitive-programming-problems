@@ -1,12 +1,13 @@
 package HashMap;
-import java.io.*;
 import java.util.*;
 public class HighestFrequencyCharacter {
 	   
 	public static void main(String[] args) throws Exception {
 	        // write your code here
 	        Scanner s = new Scanner(System.in);
-	        String str = s.next();
+			String str = s.next();
+			s.close();
+			
 	        HashMap<Character,Integer> map = new HashMap<>();
 	        char maxchar = str.charAt(0);
 	        int maxfreq = Integer.MIN_VALUE;

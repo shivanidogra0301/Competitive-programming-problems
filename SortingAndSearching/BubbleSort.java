@@ -3,7 +3,6 @@ package SortingAndSearching;
 public class BubbleSort {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] arr = {3,5,2,9,1};
 		
 		long starttime = System.currentTimeMillis();

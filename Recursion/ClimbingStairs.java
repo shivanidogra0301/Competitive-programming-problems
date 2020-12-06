@@ -6,9 +6,10 @@ import java.util.Scanner;
 public class ClimbingStairs {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner s=new Scanner(System.in);
 		int n=s.nextInt();
+        s.close();
+
 //		ArrayList<String> ans=getstairsPath(n);
 //		System.out.println(ans);
 		printstairs(n,"");

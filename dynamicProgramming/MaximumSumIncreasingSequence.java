@@ -1,5 +1,4 @@
 package dynamicProgramming;
-import java.io.*;
 import java.util.*;
 
 
@@ -12,6 +11,8 @@ public class MaximumSumIncreasingSequence {
         for(int i = 0; i < arr.length; i++){
             arr[i] = s.nextInt();
         }
+        s.close();
+
         int[] dp = new int[n];
         
         dp[0] = arr[0];

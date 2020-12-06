@@ -3,7 +3,6 @@ package Recursion;
 public class IsSorted {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] arr = {5,300,8,8,9};
 		System.out.println(isSorted(arr,4));
 		generateBS(3,"");

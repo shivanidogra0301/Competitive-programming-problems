@@ -36,7 +36,9 @@ public class PrintAbbreviations {
 	    }
 		public static void main(String[] args) {
 	        Scanner scn = new Scanner(System.in);
-	        String str = scn.nextLine();
+			String str = scn.nextLine();
+			scn.close();
+			
 	        solution(str,"",0,0);
 	    }
 	    

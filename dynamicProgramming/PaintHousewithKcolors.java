@@ -17,7 +17,6 @@ Output: 8 */
 public class PaintHousewithKcolors {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		  Scanner s = new Scanner(System.in);
 	        int n = s.nextInt();
@@ -30,7 +29,9 @@ public class PaintHousewithKcolors {
 	            for(int j = 0; j < k; j++){
 	                arr[i][j] = s.nextInt();
 	            }
-	        }
+			}
+			s.close();
+			
 	        
 	        int least = Integer.MAX_VALUE , sleast = Integer.MAX_VALUE;
 	        for(int j = 0; j < arr[0].length; j++){

@@ -1,5 +1,4 @@
 package SortingAndSearching;
-import java.io.*;
 import java.util.*;
 public class SortDates {
 	
@@ -51,7 +50,9 @@ public class SortDates {
 	    for (int i = 0; i < n; i++) {
 	      String str = scn.next();
 	      arr[i] = str;
-	    }
+		}
+        scn.close();
+		
 	    sortDates(arr);
 	    print(arr);
 	  }

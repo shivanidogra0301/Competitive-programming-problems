@@ -1,5 +1,4 @@
 package SortingAndSearching;
-import java.io.*;
 import java.util.*;
 
 public class Sort012 {
@@ -38,11 +37,14 @@ public class Sort012 {
 	  }
 	  public static void main(String[] args) throws Exception {
 	    Scanner scn = new Scanner(System.in);
-	    int n = scn.nextInt();
+		int n = scn.nextInt();
+		
 	    int[] arr = new int[n];
 	    for(int i = 0 ;i < n; i++){
 	      arr[i] = scn.nextInt();
-	    }
+		}
+        scn.close();
+		
 	    sort012(arr);
 	    print(arr);
 	  }

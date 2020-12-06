@@ -6,7 +6,6 @@ package dynamicProgramming;
 public class PaintHouse {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[][] arr= {{1,5,7},{5,8,4},{3,2,9},{1,2,4}};
 		int n=4;
 		int[][] dp=new int[n][3];

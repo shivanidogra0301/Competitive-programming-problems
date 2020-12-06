@@ -16,7 +16,6 @@ public class GraphRepresentations {
 	}
 
 	public static void main(String[] args) throws Exception {
-		// TODO Auto-generated method stub
 		// two representations one is adjacency matrix which is 2d array meaning there is a
 		//if arr[i][j] = 1 means there is a edge between the graph
 		

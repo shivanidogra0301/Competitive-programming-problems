@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class TowerOfHanoi {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner s=new Scanner(System.in);
 		int n=s.nextInt();
+        s.close();
+
 		toh(n,10,11,12);
 		
 

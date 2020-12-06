@@ -1,5 +1,4 @@
 package SortingAndSearching;
-import java.io.*;
 import java.util.*;
 public class PivotInSortedRotatedArray {
 	  public static int findPivot(int[] arr) {
@@ -24,7 +23,9 @@ public class PivotInSortedRotatedArray {
 	    int[] arr = new int[n];
 	    for (int i = 0; i < n; i++) {
 	      arr[i] = scn.nextInt();
-	    }
+		}
+        scn.close();
+		
 	    int pivot = findPivot(arr);
 	    System.out.println(pivot);
 	  }

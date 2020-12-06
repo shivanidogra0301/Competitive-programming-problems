@@ -19,7 +19,6 @@ public class LeastGCD {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int [][]arr = {{3, 6},
                 {15, 30},
                 {25, 75},

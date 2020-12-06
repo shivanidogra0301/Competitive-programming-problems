@@ -3,7 +3,6 @@ package Recursion;
 public class MaximumArray {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] arr= {8,8,6,1,8};
 //		System.out.println(Max(arr,0));
 //		System.out.println(firstindex(arr,0,8));

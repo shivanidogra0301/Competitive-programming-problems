@@ -3,7 +3,6 @@ package Recursion;
 public class printArray {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] arr= {1,2,2,4,5};
 //		displayArr(arr,0);
 		ReverseDisplay(arr,0);

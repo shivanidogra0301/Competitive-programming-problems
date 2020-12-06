@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class PrintPermutations {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner s=new Scanner(System.in);
 		String str=s.next();
+        s.close();
+
 		printPermutation(str,"");
 	}
 	public static void printPermutation(String ques,String ans) {

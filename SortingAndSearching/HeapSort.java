@@ -1,7 +1,4 @@
 package SortingAndSearching;
-
-import java.util.Scanner;
-
 public class HeapSort {
 			  
 	public void sort(int arr[]) {

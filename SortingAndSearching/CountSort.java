@@ -1,5 +1,4 @@
 package SortingAndSearching;
-import java.io.*;
 import java.util.*;
 public class CountSort {
 	  public static void countSort(int[] arr, int min, int max) {
@@ -47,7 +46,9 @@ public class CountSort {
 	      arr[i] = scn.nextInt();
 	      max = Math.max(max, arr[i]);
 	      min = Math.min(min, arr[i]);
-	    }
+		}
+        scn.close();
+		
 	    countSort(arr,min,max);
 	    print(arr);
 	  }

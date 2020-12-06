@@ -14,9 +14,10 @@ E.g.
 public class FriendsPairing {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		 Scanner s = new Scanner(System.in);
-	        int n = s.nextInt();
+			int n = s.nextInt();
+			s.close();
+			
 	        int[] dp = new int[n+1];
 	        dp[1] = 1;
 	        dp[2] = 2;

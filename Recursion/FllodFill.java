@@ -3,7 +3,6 @@ package Recursion;
 public class FllodFill {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[][] maze= {{0,1,0,0,0,0,0},
 					   {0,1,0,1,1,1,0},
 					   {0,0,0,0,0,0,0},
@@ -12,7 +11,7 @@ public class FllodFill {
 					   {1,0,0,0,0,0,0}
 				};
 //		System.out.println(maze[0].length);
-		int m=6,n=7;
+		// int m=6,n=7;
 		boolean[][] visited=new boolean[6][7];
 		for(int i =0;i<maze.length;i++) {
 			for(int j=0;j<maze[i].length;j++) {

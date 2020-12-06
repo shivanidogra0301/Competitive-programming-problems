@@ -1,6 +1,5 @@
 package BinaryTree;
 import java.util.PriorityQueue; 
-import java.util.Scanner; 
 import java.util.Comparator;
 public class HuffmanCoding {
 
@@ -46,7 +45,7 @@ public class HuffmanCoding {
 		    public static void main(String[] args) 
 		    { 
 		  
-		        Scanner s = new Scanner(System.in); 
+		        
 		  
 		        
 		        int n = 6; 

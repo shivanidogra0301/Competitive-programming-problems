@@ -6,10 +6,11 @@ import java.util.Scanner;
 public class GetMazepath {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner s=new Scanner(System.in);
 		int n=s.nextInt();
 		int m=s.nextInt();
+        s.close();
+
 //		ArrayList<String> ans=getMazePath(0,0,n-1,m-1);
 //		ArrayList<String> ans=getmazeJump(0,0,n-1,m-1);
 //		System.out.println(ans);

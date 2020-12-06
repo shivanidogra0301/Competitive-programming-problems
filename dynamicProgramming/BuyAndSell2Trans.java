@@ -7,10 +7,11 @@ import java.util.Scanner;
 public class BuyAndSell2Trans {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		// to find the max profit when two transaction is allowed
-		Scanner s = new Scanner(System.in);
-		int n = s.nextInt();
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        s.close();
+        
         int[] arr = new int[n];
         
         for(int i = 0; i < arr.length; i++){

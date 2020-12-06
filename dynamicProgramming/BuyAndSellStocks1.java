@@ -12,6 +12,8 @@ public class BuyAndSellStocks1 {
         for(int i = 0; i < arr.length; i++){
             arr[i] = s.nextInt();
         }
+        s.close();
+
 		BandSell1trans(arr); //when only one transaction is allowed
 		BandSellInfiniteTrans(arr); // when infinite transaction is allowed
 		int cost = 3;

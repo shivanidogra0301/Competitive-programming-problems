@@ -1,5 +1,4 @@
 package dynamicProgramming;
-import java.io.*;
 import java.util.*;
 public class LongestIncreasingSubesquence {
 	public static void main(String[] args) throws Exception {
@@ -9,7 +8,9 @@ public class LongestIncreasingSubesquence {
 	        int[] arr = new int[n];
 	        for(int i = 0; i < arr.length; i++){
 	            arr[i] = s.nextInt();
-	        }
+			}
+			s.close();
+			
 	        int[] dp = new int[n];
 	        
 	        dp[0] = 1;
